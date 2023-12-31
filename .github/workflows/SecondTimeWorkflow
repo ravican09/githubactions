@@ -1,0 +1,18 @@
+name: First workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: |
+            echo "Hello world SecondTimeWorkflow"
+            echo "Hello world1 SecondTimeWorkflow"
+            
+      - name: print goodbye
+        run: |
+          echo "Done world SecondTimeWorkflow"
+          echo "Done world SecondTimeWorkflow"
+      
+      
+    
